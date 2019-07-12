@@ -1,0 +1,72 @@
+#main{
+    margin: auto;
+    border: solid #b4bfbd 1px;
+    border-radius: 10px;
+    max-width: 35%;
+    height: 525px;
+    margin-top: 5.5%;
+    text-align: center;
+}
+#foot{
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    margin: 20px;
+}
+#next_button{
+    display: inline-block;
+    margin-left: 40%;
+}
+
+button{
+    background: darkblue;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 85px;
+    font-size: 16px;
+    outline: none;
+
+}
+button:hover{
+    cursor: pointer;
+}
+#forgot{
+    display: inline-block;
+    color: blue;    
+}
+#google_image{
+    max-width: 15%;
+    max-height: 15%;
+    margin-top: 10%; 
+}
+input{
+    margin-top: 30px;
+    min-width: 80%;
+    height: 50px;
+    border-radius: 7px;
+    border: solid gainsboro 1px;
+    padding-left: 2%;
+}
+#email{
+    border: solid #b4bfbd 1px;
+    border-radius: 15px;
+    width: 55%;
+    display: inline-block;
+    height: 30px;
+    outline: none;
+}
+#toggle_image{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -3.2%;
+}
+#toggle_image:hover{
+    cursor: pointer;
+}
+#input_area{
+    margin-top:30px; 
+}

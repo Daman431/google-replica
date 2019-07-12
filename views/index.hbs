@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/css/styling.css">
+	<script type="text/javascript" src="/js/response.js"></script>
+	<link rel = "icon" href ="/media/title_img.png" type = "image/x-icon"> 
+	<title>
+		Google
+	</title>
+</head>
+<body>
+	<div id="upper">
+		<a href="https://mail.google.com/mail/?tab=wm&ogbl" target="_blank">Gmail</a>&nbsp
+		<a href="https://www.google.co.in/imghp?hl=en&tab=wi&ogbl">Images</a>&nbsp
+		<a href="https://www.google.co.in/intl/en/about/products?tab=wh"><img id="apps_image" src="\media\apps.png"></a>&nbsp
+		<a href="/login">My Account</a>
+	</div>
+	<div id="Middle">
+		<img src="media/Google.png"><br>
+		<div id="search">
+		<input id="searching_field" type="text" list="datalist" name="search_bar" onkeyup="autoComplete(this.entered)"><br>
+		<datalist id="datalist">
+			<option value="Delhi"></option> 
+			<option value="Ahemdabad"></option> 
+			<option value="Punjab"></option> 
+			<option value="Uttar Pradesh"></option> 
+			<option value="Himachal Pradesh"></option> 
+			<option value="Karnatka"></option> 
+			<option value="Kerela"></option> 
+			<option value="Maharashtra"></option> 
+			<option value="Tamil Nadu"></option> 
+			<option value="Haryana"></option> 
+			<option value="Gujrat"></option> 
+			<option value="Rajasthan"></option> 
+			<option value="Bihar"></option> 
+		</datalist>
+		</div>
+		<button id="search_button" type="button" onclick="button_press();" >Google Search</button>
+		<button id="lucky_button" onclick="window.location.href = 'https://www.google.com/doodles/'">I'm feeling Lucky</button>
+		<div id="languages">
+			<p>Google offered in:</p>
+			<a href="https://www.google.com/setprefs?sig=0_CvdSWaLO6c40DAiB7ZLVTYx8vJk%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwiHv6zW-PLiAhXSSH0KHah6CO8Q2ZgBCAk">हिन्दी</a> &nbsp
+			<a href="https://www.google.com/setprefs?sig=0_CvdSWaLO6c40DAiB7ZLVTYx8vJk%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwiHv6zW-PLiAhXSSH0KHah6CO8Q2ZgBCAo">বাংলা</a> &nbsp
+			<a href="https://www.google.com/setprefs?sig=0_CvdSWaLO6c40DAiB7ZLVTYx8vJk%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwiHv6zW-PLiAhXSSH0KHah6CO8Q2ZgBCAs">తెలుగు</a> &nbsp
+			<a href="https://www.google.com/setprefs?sig=0_CvdSWaLO6c40DAiB7ZLVTYx8vJk%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwiHv6zW-PLiAhXSSH0KHah6CO8Q2ZgBCAw">मराठी</a> &nbsp
+			<a href="https://www.google.com/setprefs?sig=0_CvdSWaLO6c40DAiB7ZLVTYx8vJk%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwiHv6zW-PLiAhXSSH0KHah6CO8Q2ZgBCA0">தமிழ்</a> &nbsp
+			<a href="https://www.google.com/setprefs?sig=0_CvdSWaLO6c40DAiB7ZLVTYx8vJk%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwiHv6zW-PLiAhXSSH0KHah6CO8Q2ZgBCA4">ગુજરાતી</a> &nbsp
+			<a href="https://www.google.com/setprefs?sig=0_CvdSWaLO6c40DAiB7ZLVTYx8vJk%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwiHv6zW-PLiAhXSSH0KHah6CO8Q2ZgBCA8">ಕನ್ನಡ</a> &nbsp
+			<a href="https://www.google.com/setprefs?sig=0_CvdSWaLO6c40DAiB7ZLVTYx8vJk%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwiHv6zW-PLiAhXSSH0KHah6CO8Q2ZgBCBA">മലയാളം</a> &nbsp
+			<a href="https://www.google.com/setprefs?sig=0_CvdSWaLO6c40DAiB7ZLVTYx8vJk%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwiHv6zW-PLiAhXSSH0KHah6CO8Q2ZgBCBE">ਪੰਜਾਬੀ</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+		(function() {
+			var getting_input = document.getElementById('searching_field');
+				getting_input.addEventListener("keyup",function(event) {
+					if(event.keyCode === 13){
+						document.getElementById('search_button').click();
+					}
+				});
+		})();
+	</script>
+</body>
+</html>

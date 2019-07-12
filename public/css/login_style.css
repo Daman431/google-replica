@@ -1,0 +1,82 @@
+@media only screen{
+#main{
+	margin: 0 auto;
+	min-height: 400px;
+	height: auto;
+	width: 35%;
+	border: 1px solid #dddddd;
+	text-align: center;
+	margin-top: 6%;
+	border-radius: 20px;
+	padding-bottom: 7%;
+	}
+
+#head_image{
+	height: 17%;
+	width: 17%;
+	margin-top: 55px;
+}
+#heading{
+	font-family: sans-serif;
+}
+#sub_heading{
+	font-family: sans-serif;
+}
+#username_field{
+	margin-top: 3%;
+	width: 80%;
+	height: 50px;
+	border-radius: 5px;
+	border:1px solid #dddddd;
+	padding-left: 10px;
+}
+#forgot{
+	margin-left: 10%;
+	text-align: left;
+	color: #1a73e8;
+}
+#forgot:hover{
+	cursor: pointer;
+}
+#info{
+	margin-top: 9%;
+	margin-left: 10%;
+	text-align: left;
+}
+#learn{
+	text-align: left;
+	margin-left: 10%;	
+	color: #1a73e8;
+}
+#learn:hover{
+	cursor: pointer;
+}
+#create_account{
+	text-align: left;
+	margin-left: 10%;		
+	color: #1a73e8;
+	float: left;
+	position: relative;
+	top: -13px;
+
+}
+#create_account:hover{
+	cursor: pointer;
+}
+#next_button{
+	float: right;
+	margin-right: 10%;
+	height: 35px;
+	width: 90px;
+	border-radius: 3px;
+	outline: none;
+	border:none;
+	color: #fff;
+	background: #1a73e8;
+}
+#next_button:hover{
+	cursor: pointer;
+}
+
+
+}

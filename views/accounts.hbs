@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/css/account_style.css">
+	<script type="text/javascript" src="/js/account.js"></script>
+	<title>Create account</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+	<div id="main">
+	<img id="google_image" src="\Media\google.png">
+	<h1>Create your Google Account</h1>
+	<form>
+		<div id="input_area">
+		<span><img id="security_image" src="\Media\security.png"></span>
+		<input id="first_name" type="text" name="f_name" placeholder="First Name">
+		<input id="last_name" type="text" name="l_name" placeholder="Last Name"><br>
+		<input id="username" type="text" name="uname" placeholder="UserName">
+		<input id="sub_username" type="text" name="gamil.com" value="@gmail.com" disabled=""><br>
+		<p id="info">You can use letters, numbers & periods</p><br>
+		<p id="email_change" onclick="email_toggle()">Use my current email address instead</p>
+		<input id="password" type="password" name="pass" placeholder="Password">
+		<input id="confirm_password" type="password" name="confirm" placeholder="Confirm Password">
+		<img id="toggle_image" src="\Media\hide_password.png" onclick="toggle()"><br>
+		<p id="pass_info">Use 8 or more characters with a mix of letters, numbers & symbols</p><br>
+		<p id="sign_in" onclick="sign_in()">Sign in instead </p>
+		<button id="next_button" type="button" onclick="next_press()">Next</button>
+		</div>
+	</form>
+	</div>
+</body>
+</html>
